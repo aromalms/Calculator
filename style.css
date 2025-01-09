@@ -23,21 +23,35 @@
 .c-btn{
     width: 70px;
     height: 70px;
-    margin-top: 30px;
+    margin-top: -70px;
     margin-left: 306px;
     font-size: x-large;
     font-style: oblique;
     color: white;
     background-color: rgb(188, 17, 85);
     border-radius: 20px;
-
+    float: left;
 }
+
+.back-btn{
+    width: 70px;
+    height: 70px;
+    font-size: x-large;
+    font-style: oblique;
+    color: white;
+    background-color: rgb(188, 17, 85);
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-left: 213px;
+}
+
+
 .btn{
     width: 70px;
     height: 70px;
     margin-top: 13px;
     margin-left: 21px;
     font-size: x-large;
-    border-radius: 20px;
+    font-weight: 600;
     background-color: darkgray;
 }
