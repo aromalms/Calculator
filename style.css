@@ -1,0 +1,43 @@
+#border{
+    width: 400px;
+    height: 600px;
+    background-color: rgb(18, 3, 54);
+    border-radius: 10px;
+    border: solid 7px;
+    border-color: rgb(36, 1, 8);
+    margin-left: 37%;
+    margin-top: 50px;
+}
+
+#display{
+    width: 350px;
+    height: 80px;
+    margin-top: 30px;
+    margin-left: 21px;
+    pointer-events:none;
+    background-color: rgb(77, 158, 160);
+    font-size: large;
+    border-radius: 10px;
+}
+
+.c-btn{
+    width: 70px;
+    height: 70px;
+    margin-top: 30px;
+    margin-left: 306px;
+    font-size: x-large;
+    font-style: oblique;
+    color: white;
+    background-color: rgb(188, 17, 85);
+    border-radius: 20px;
+
+}
+.btn{
+    width: 70px;
+    height: 70px;
+    margin-top: 13px;
+    margin-left: 21px;
+    font-size: x-large;
+    border-radius: 20px;
+    background-color: darkgray;
+}

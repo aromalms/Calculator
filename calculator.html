@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js">
+    </script>
+</head>
+<body>
+    <div id="main-body">
+        <div id="border">
+            <div id="screen-display">
+                <input type="text" id="display">
+            </div>
+            <div>
+                <button class="c-btn" onclick="clear_all()">C</button>
+            </div>
+            <div>
+                <button class="btn" onclick="dis(7)">7</button>
+                <button class="btn" onclick="dis(8)">8</button>
+                <button class="btn" onclick="dis(9)">9</button>
+                <button class="btn" onclick="dis('/')">/</button>
+            </div>
+            <div>
+                <button class="btn" onclick="dis(4)">4</button>
+                <button class="btn" onclick="dis(5)">5</button>
+                <button class="btn" onclick="dis(6)">6</button>
+                <button class="btn" onclick="dis('*')">X</button>
+            </div>
+            <div>
+                <button class="btn" onclick="dis(1)">1</button>
+                <button class="btn" onclick="dis(2)">2</button>
+                <button class="btn" onclick="dis(3)">3</button>
+                <button class="btn" onclick="dis('-')">-</button>
+            </div>
+            <div>
+                <button class="btn" onclick="dis(0)">0</button>
+                <button class="btn" onclick="dis('.')">.</button>
+                <button class="btn" onclick="dis('+')">+</button>
+                <button class="btn" onclick="ope()">=</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
