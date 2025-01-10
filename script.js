@@ -5,7 +5,7 @@ function dis(val)
 
 function clear_all()
 {
-    document.getElementById("display").value=null
+    document.getElementById("display").value=""
 }
 
 function clear_one()
